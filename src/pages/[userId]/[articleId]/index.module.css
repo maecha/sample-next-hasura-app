@@ -21,6 +21,11 @@
   font-size: 16px;
 }
 
+.publishedAt {
+  font-size: 16px;
+  opacity: 0.5;
+}
+
 .userName {
   font-size: 16px;
   opacity: 0.5;
