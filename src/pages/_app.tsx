@@ -7,7 +7,7 @@ import 'minireset.css'
 const createApolloClient = () => {
   return new ApolloClient({
     link: new HttpLink({
-      uri: 'http://localhost:8080/v1/graphql'
+      uri: 'http://localhost:8080/v1/graphql',
     }),
     cache: new InMemoryCache(),
   })
@@ -21,3 +21,5 @@ const MyApp = ({ Component, pageProps }: AppProps) => {
     </ApolloProvider>
   )
 }
+
+export default MyApp
