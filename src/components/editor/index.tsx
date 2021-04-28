@@ -14,10 +14,10 @@ type Props = {
 }
 
 export const Editor: React.FC<Props> = ({
-  className,
-  placeholder,
   value,
   onEdit,
+  placeholder,
+  className,
 }) => {
   const ref = React.useRef<HTMLTextAreaElement>(null)
 
@@ -27,6 +27,7 @@ export const Editor: React.FC<Props> = ({
     }
   }, [])
 
+  // 明日、ここを調べる
   const handleChange = React.useCallback(
     (ev: React.ChangeEvent<HTMLTextAreaElement>) => {
       onEdit(ev.target.value)

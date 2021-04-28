@@ -1,3 +1,4 @@
+// ref: https://ja.reactjs.org/docs/hooks-reference.html#usememo
 import { useMemo } from 'react'
 
 /** 複数のクラス名を合成して、一つの文字列に結合する。undefined が混じってもOK */
