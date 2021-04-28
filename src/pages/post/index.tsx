@@ -2,7 +2,7 @@ import { NextPage } from 'next'
 import { useState, useCallback } from 'react'
 
 import { Editor } from '@/components/editor'
-import { SiteHeader,  SiteHeaderItem } from '@/components/site-header'
+import { SiteHeader, SiteHeaderItem } from '@/components/site-header'
 import { Button } from '@/components/button'
 
 import styles from './index.module.css'
