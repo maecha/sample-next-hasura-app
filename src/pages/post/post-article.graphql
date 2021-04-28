@@ -2,7 +2,7 @@ mutation PostArticle(
   $authorId: uuid!
   $content: String!
   $subject: String!
-  $publishedAt: timestamptz!
+  $publishedAt: timestamptz
 ) {
   insert_articles_one(
     object: {
